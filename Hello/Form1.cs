@@ -34,5 +34,13 @@ namespace Hello
                 
 
         }
+
+        private void btTru_Click(object sender, EventArgs e)
+        {
+            double a = double.Parse(lbA.Text);
+            double b = double.Parse(lbB.Text);
+            double c = a - b;
+            lbC.Text = c.ToString();
+        }
     }
 }
