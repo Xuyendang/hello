@@ -34,6 +34,7 @@
             this.txtA = new System.Windows.Forms.TextBox();
             this.btCong = new System.Windows.Forms.Button();
             this.lbC = new System.Windows.Forms.TextBox();
+            this.btTru = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbB
@@ -83,11 +84,22 @@
             this.lbC.Size = new System.Drawing.Size(200, 22);
             this.lbC.TabIndex = 5;
             // 
+            // btTru
+            // 
+            this.btTru.Location = new System.Drawing.Point(396, 173);
+            this.btTru.Name = "btTru";
+            this.btTru.Size = new System.Drawing.Size(130, 42);
+            this.btTru.TabIndex = 6;
+            this.btTru.Text = "Tru";
+            this.btTru.UseVisualStyleBackColor = true;
+            this.btTru.Click += new System.EventHandler(this.btTru_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btTru);
             this.Controls.Add(this.lbC);
             this.Controls.Add(this.btCong);
             this.Controls.Add(this.txtA);
@@ -110,6 +122,7 @@
         private System.Windows.Forms.TextBox txtA;
         private System.Windows.Forms.Button btCong;
         private System.Windows.Forms.TextBox lbC;
+        private System.Windows.Forms.Button btTru;
     }
 }
 
