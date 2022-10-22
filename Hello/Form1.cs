@@ -24,10 +24,14 @@ namespace Hello
 
         private void btCong_Click(object sender, EventArgs e)
         {
-            double a = double.Parse(lbA.Text);
-            double b = double.Parse(lbB.Text);
-            double c = a + b;
-            lbC.Text = c.ToString();
+            if (txtA.Text != String.Empty && txtB.Text != String.Empty)
+            {
+                double a = double.Parse(lbA.Text);
+                double b = double.Parse(lbB.Text);
+                double c = a + b;
+                lbC.Text = c.ToString();
+            }
+                
 
         }
     }
