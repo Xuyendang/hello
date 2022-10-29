@@ -24,8 +24,8 @@ namespace Hello
 
         private void btCong_Click(object sender, EventArgs e)
         {
-            int a = int.Parse(lbA.Text);
-            int b = int.Parse(lbB.Text);
+            int a = int.Parse(txtA.Text);
+            int b = int.Parse(txtB.Text);
             Calculation c = new Calculation(a, b);
 
             lbC.Text = c.Execute("+").ToString();
@@ -42,8 +42,8 @@ namespace Hello
 
         private void btTru_Click(object sender, EventArgs e)
         {
-            int a = int.Parse(lbA.Text);
-            int b = int.Parse(lbB.Text);
+            int a = int.Parse(txtA.Text);
+            int b = int.Parse(txtB.Text);
             Calculation c = new Calculation(a, b);
 
             lbC.Text = c.Execute("-").ToString();
@@ -58,8 +58,8 @@ namespace Hello
 
         private void btChia_Click(object sender, EventArgs e)
         {
-            int a = int.Parse(lbA.Text);
-            int b = int.Parse(lbB.Text);
+            int a = int.Parse(txtA.Text);
+            int b = int.Parse(txtB.Text);
             Calculation c = new Calculation(a, b);
 
             lbC.Text = c.Execute("/").ToString();
@@ -67,8 +67,8 @@ namespace Hello
 
         private void btNhan_Click(object sender, EventArgs e)
         {
-            int a = int.Parse(lbA.Text);
-            int b = int.Parse(lbB.Text);
+            int a = int.Parse(txtA.Text);
+            int b = int.Parse(txtB.Text);
             Calculation c = new Calculation(a, b);
 
             lbC.Text = c.Execute("*").ToString();

@@ -59,16 +59,16 @@
             // 
             // txtB
             // 
-            this.txtB.Location = new System.Drawing.Point(101, 27);
-            this.txtB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtB.Location = new System.Drawing.Point(102, 67);
+            this.txtB.Margin = new System.Windows.Forms.Padding(2);
             this.txtB.Name = "txtB";
-            this.txtB.Size = new System.Drawing.Size(76, 20);
+            this.txtB.Size = new System.Drawing.Size(151, 20);
             this.txtB.TabIndex = 2;
             // 
             // txtA
             // 
-            this.txtA.Location = new System.Drawing.Point(101, 67);
-            this.txtA.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtA.Location = new System.Drawing.Point(102, 32);
+            this.txtA.Margin = new System.Windows.Forms.Padding(2);
             this.txtA.Name = "txtA";
             this.txtA.Size = new System.Drawing.Size(151, 20);
             this.txtA.TabIndex = 3;
@@ -76,7 +76,7 @@
             // btCong
             // 
             this.btCong.Location = new System.Drawing.Point(102, 141);
-            this.btCong.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btCong.Margin = new System.Windows.Forms.Padding(2);
             this.btCong.Name = "btCong";
             this.btCong.Size = new System.Drawing.Size(98, 34);
             this.btCong.TabIndex = 4;
@@ -87,7 +87,7 @@
             // lbC
             // 
             this.lbC.Location = new System.Drawing.Point(355, 54);
-            this.lbC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lbC.Margin = new System.Windows.Forms.Padding(2);
             this.lbC.Name = "lbC";
             this.lbC.Size = new System.Drawing.Size(151, 20);
             this.lbC.TabIndex = 5;
@@ -95,7 +95,7 @@
             // btTru
             // 
             this.btTru.Location = new System.Drawing.Point(297, 141);
-            this.btTru.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btTru.Margin = new System.Windows.Forms.Padding(2);
             this.btTru.Name = "btTru";
             this.btTru.Size = new System.Drawing.Size(98, 34);
             this.btTru.TabIndex = 6;
@@ -139,7 +139,7 @@
             this.Controls.Add(this.txtB);
             this.Controls.Add(this.lbA);
             this.Controls.Add(this.lbB);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
